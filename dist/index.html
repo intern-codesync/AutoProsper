@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.4.2-web/fonts/PlusJakartaSans-Bold.ttf">
     <link rel="stylesheet" href="/assets/fontawesome-free-6.4.2-web/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -12,10 +13,48 @@
     <title>Document</title>
 </head>
 
+
 <body>
     <div class="bg-cover bg-center h-[640px]" style="background-image: url('/assets/images/Group.png');">
         <nav>
-            <ul class="flex justify-between items-center p-2.5">
+            <div class="hidden lg:flex items-center justify-between">
+            <div>
+                <img class="lg:w-[12.49013rem] h-[2.625rem]" src="/assets/images/autoprosper.png">
+            </div>
+            <ul class="text-white lg:inline-flex items-center justify-center gap-10 ">
+                <li class="lg:flex items-center gap-[0.3125rem]" ><a href="#">Shop</a>
+                    <svg class="w-5 h-5">
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </li>
+                <li class="lg:flex items-center gap-[0.3125rem]" ><a href="#">Self/Trade</a>
+                    <svg class="w-5 h-5">
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </li>
+                <li class="lg:flex items-center gap-[0.3125rem]"><a href="#">Service</a>
+                    <svg class="w-5 h-5">
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </li>
+                <li class="lg:flex items-center gap-[0.3125rem]"><a href="#">Finance</a>
+                    <svg class="w-5 h-5">
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </li>
+                <li class="lg:flex items-center gap-[0.3125rem]"> <a href="#">Learn</a>
+                    <svg class="w-5 h-5">
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </li>
+            </ul>
+            <div>
+                <button class="btn py-2.5 px-5">
+                    <a  href="#">SIGNUP</a>
+                </button>
+            </div>
+        </div>
+            <ul class="flex justify-between items-center p-2.5 lg:hidden ">
                 <li>
                     <svg class="w-[30px] h-[30px]">
                         <use xlink:href="#bars"></use>
@@ -31,18 +70,21 @@
                 </li>
             </ul>
         </nav>
-        <div class="sm-continer">
-            <h1>Strive for Your <span> Dreams,</span> Tailored to Your Resources.</h1>
-            <p>Start your car ownership journey with our straightforward advice and competitive deals tailored for the
+        <div class="continer">
+            <h1 class="text-white text-[3.5rem]">Strive for Your <strong> Dreams,</strong> Tailored to Your Resources.</h1>
+            <p class="text-white text-xl">Start your car ownership journey with our straightforward advice and competitive deals tailored for the
                 smart buyers—just a seamless path to getting the keys to your next car.</p>
-
+                <div>
+                    <button class="btn py-2.5 px-5">
+                        <a  href="#">GET STARTED</a>
+                        <svg class="w-[30px] h-[30px]">
+                            <use xlink:href="#arrow-right"></use>
+                        </svg>
+                    </button>
+                </div>
+            
         </div>
     </div>
-
-
-
-
-
 
 
 
@@ -96,6 +138,16 @@
                     <rect x="5" y="10" width="20" height="2" fill="white" />
                     <rect x="5" y="19" width="20" height="2" fill="white" />
                 </symbol>
+                <symbol id="arrow-down" viewBox="0 0 18 18">
+                    <title>Arrow-Down</title>
+                    <path d="M9 11.5312L4.5 7.0312L5.55 5.9812L9 9.4312L12.45 5.9812L13.5 7.0312L9 11.5312Z" fill="white"/>
+                </symbol>
+                <symbol id="arrow-right" viewBox="0 0 20 20">
+                    <title>Arrow Right</title>
+                    <path d="M13.4779 10.8334H3.33203V9.16671H13.4779L8.8112 4.50004L9.9987 3.33337L16.6654 10L9.9987 16.6667L8.8112 15.5L13.4779 10.8334Z" fill="black"/>
+                </symbol>
         </svg>
+    </div>
 </body>
+
 </html>

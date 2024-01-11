@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .continer {
+    @apply sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-[15px];
+  }
+  .btn {
+    @apply font-[0.8125rem] font-bold tracking-[0.07313rem] px-5 py-2.5 rounded-[6.25rem] inline-flex items-center justify-center text-[#001B44];
+    background: linear-gradient(90deg, #00ffa2 0%, #ffe664 100%);
+  }
+  .btn-blue:hover {
+    @apply bg-blue-700;
+  }
+}
+/* .container{
+  @apply  sm-max-w-[540px] md-max-w-[720px] lg-max-w-[960] xl-max-w-[1140px] 2xl-max-w-[1320px]
+  } */
