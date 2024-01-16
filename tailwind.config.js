@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./dist/*.html"],
   theme: {
+    fontFamily : {
+      'display' : ['Plus Jakarta Sans','sans-serif'],
+    },
     screens: {
       'sm': '576px',
       // => @media (min-width: 540px) { ... }
