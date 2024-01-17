@@ -4,8 +4,8 @@
 }
 @font-face {
     font-family: 'PlusJakartaSans-Regular';
-    src: url(/assets/fontawesome-free-6.4.2-web/fonts/PlusJakartaSans-Regular.ttf);
+    src: url('/assets/fontawesome-free-6.4.2-web/fonts/PlusJakartaSans-Regular.ttf');
 } 
 body{
-    font-family: PlusJakartaSans-Regular;
+    font-family: PlusJakartaSans-regular;
 }
